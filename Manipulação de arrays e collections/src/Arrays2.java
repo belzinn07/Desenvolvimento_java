@@ -19,6 +19,7 @@ public class Arrays2 {
         double media = (double) soma/notas.length;//calcula a média
 
         System.out.println("`\nA média é : " + media);
+        
 
     }
 

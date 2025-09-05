@@ -21,6 +21,7 @@ public class Main {
         System.out.println("=== Processando pagamento via Cartão ===");
         boolean sucessoCartao = sistema.processarPagamento(pagamentoCartao, 250.00);
         System.out.println("Pagamento via Cartão realizado? " + sucessoCartao);
+        System.out.println();
 
 
         // ========== Pagamento via Boleto ==========

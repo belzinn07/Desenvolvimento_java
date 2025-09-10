@@ -1,4 +1,4 @@
-//Algoritmo de filtrar as notas maiores que 5 com collections
+////Algoritmo de filtrar as notas maiores que 5, fazer a média e exibir as notas baixas
 
 import java.util.ArrayList;//importa a classe ArrayList
 import java.util.Arrays;//importa a classe Array

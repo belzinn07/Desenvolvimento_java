@@ -2,8 +2,7 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.Arrays;
 
-
-
+//Algoritmo de pegar as notas maiores que 5, fazer a média e exibir as notas baixas
 public class Funcional {
 
     public static void main(String[] args) {

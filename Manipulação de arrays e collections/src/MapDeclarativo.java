@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 public class MapDeclarativo {
@@ -14,7 +15,15 @@ public class MapDeclarativo {
     notas.put("Belo", 5);
 
 
-    Predicate<Map.Entry<String, Integer>> notaBaixa = n -> n.getValue() < 6;
+    Predicate<Map.Entry<String, Integer>> notasBaixas = n -> n.getValue() < 6;
+    Consumer<Map.Entry<String, Integer>> exibaRecuperacao =  n ->  System.out.println(
+            n.getKey() + " tirou nota " + n.getValue() + " e precisa fazer recuperação");
+    Consumer<Map.Entry<String, Integer>> atualizarNotas = 
+    e -> e.setValue(e.getValue() + (6 - e.getValue()) * (e.getValue() < 6 ? 1 : 0));
+     Consumer<Map.Entry<String, Integer>> notasAtualizadas = entry ->
+            System.out.println("Aluno " + entry.getKey() + " tem nota: " + entry.getValue());
+        
+
     
 
     Double media=notas.values()
@@ -25,11 +34,12 @@ public class MapDeclarativo {
 
 
     notas.entrySet().stream()
-                    .filter(notaBaixa)
-                    .forEach(n ->  System.out.println(
-            n.getKey() + " tirou nota " + n.getValue() + " e precisa fazer recuperação"));
-                   
+                    .filter(notasBaixas)
+                    .peek(exibaRecuperacao)
+                    .peek(atualizarNotas)
+                    .forEach(notasAtualizadas); 
 
+                  
 
     }
 

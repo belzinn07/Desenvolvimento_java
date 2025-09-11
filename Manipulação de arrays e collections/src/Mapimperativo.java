@@ -50,6 +50,8 @@ for(Map.Entry<String, Integer> recuperacao: notas.entrySet()){
         System.out.println("Aluno: " + notasAtualizadas.getKey() + " tem nota: "+ notasAtualizadas.getValue());
 
     }
+
+    
     //nova média
      soma=0;
 

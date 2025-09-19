@@ -1,19 +1,16 @@
+package models;
 import java.util.ArrayList;
 import java.util.List;
 
-interface Filtro {
-    Filtro isNotaAzul();
-    Filtro isNotaBaixa();
-    double calcularMedia();
-    void mostrarNotas(String mensagem);
-}
+import abstracoes.GerenciarNotas;
+import abstracoes.Filtro;
 
-class Boletim implements Filtro {
+public class Aluno implements GerenciarNotas {
     private final String nome;
     private List<Double> notas;   
     private List<Double> lista;   
 
-    public Boletim(String nome){
+    public Aluno(String nome){
         this.nome = nome;
         this.notas = new ArrayList<>();
         this.lista = new ArrayList<>();
@@ -28,29 +25,6 @@ class Boletim implements Filtro {
         this.lista.add(nota);
     }
 
-    @Override
-    public Filtro isNotaAzul(){
-        List<Double> aprovados = new ArrayList<>();
-        for(double nota : notas){   
-            if (nota >= 6) {
-                aprovados.add(nota);
-            }
-        }
-        this.lista = aprovados;
-        return this;
-    }
-
-    @Override
-    public Filtro isNotaBaixa(){
-        List<Double> reprovados = new ArrayList<>();
-        for(double nota : notas){
-            if (nota < 6) {
-                reprovados.add(nota);
-            }
-        }
-        this.lista = reprovados;
-        return this;
-    }
 
     @Override
     public double calcularMedia(){
@@ -66,4 +40,11 @@ class Boletim implements Filtro {
     public void mostrarNotas(String mensagem){
         System.out.println(mensagem + lista);
     }
+
+    
+      public List<Double> filtrar(Filtro filtro){
+        this.lista = filtro.filtrar(notas);
+        return this.lista;
+    }
+
 }

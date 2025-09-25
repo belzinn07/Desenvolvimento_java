@@ -1,15 +1,14 @@
 ////Algoritmo de filtrar as notas maiores que 5, fazer a média e exibir as notas baixas
 
-import java.util.ArrayList;//importa a classe ArrayList
-import java.util.Arrays;//importa a classe Array
-import java.util.List; //importa a interface List
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List; 
 
 public class Collections {
  
     public static void main(String[] args) {
-        List <Integer> notas = new ArrayList<>(Arrays.asList(5,6,7,8,9,10,4)); //inicia a lista de notas 
-
-          //Apliacando filtro dos números maiores que 5  
+        List <Integer> notas = new ArrayList<>(Arrays.asList(5,6,7,8,9,10,4)); 
+       
         List <Integer> maioresQue5 = filtrar(notas, Collections::maiorQue5);  
         
         System.out.println("As notas maiores que 5 são: "+maioresQue5);
@@ -20,12 +19,12 @@ public class Collections {
 
     }
 
-    //criação da do método filtrar que filtra uma lista de inteiros  
+   
     public static List<Integer> filtrar(List<Integer> lista,Filtro filtros) {
-      List <Integer>  resultado = new ArrayList<>(); //inicia a lista resultado  
+      List <Integer>  resultado = new ArrayList<>();  
       List<Integer>  notasbaixas = new ArrayList<>();  
 
-      for(int n : lista){//itera sobre cada inteiro
+      for(int n : lista){
       
         if (filtros.testar(n)) {
           resultado.add(n);
@@ -44,13 +43,12 @@ public class Collections {
       
       
     }
- //criação da interface funcional
+
       interface Filtro {
         boolean testar(int numero);
     }
 
   
-    //criação do método dos números maiores que 5
     public static boolean maiorQue5(int notas){
       return notas>5;
 
@@ -58,7 +56,7 @@ public class Collections {
 
     }
 
-   //método de calcular média
+   
     public static double calcularMedia(List<Integer> lista){
 
       if (lista.isEmpty()) return 0.0;

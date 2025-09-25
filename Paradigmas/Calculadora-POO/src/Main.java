@@ -21,7 +21,5 @@ public class Main {
     aluno.filtrar(new NotaBaixa());
     aluno.mostrarNotas("Notas Baixas: ");
 
-   
-
     }
 }

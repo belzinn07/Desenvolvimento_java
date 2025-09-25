@@ -1,3 +1,6 @@
+import implementations.PagamentoBoleto;
+import implementations.PagamentoCartao;
+
 public class Main {
     public static void main(String[] args) {
         // Inversão da dependência: injeto qualquer implementação

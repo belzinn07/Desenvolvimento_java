@@ -1,3 +1,4 @@
+import abstractions.Pagamento;
 
 class PagamentoBoleto implements Pagamento {
     @Override

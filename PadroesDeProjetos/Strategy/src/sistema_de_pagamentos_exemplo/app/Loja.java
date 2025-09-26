@@ -1,5 +1,7 @@
-import abstractions.Pagamento;
-class Loja {
+package sistema_de_pagamentos_exemplo.app;
+import sistema_de_pagamentos_exemplo.abstractions.*;;            
+
+public class Loja {
     private final Pagamento pagamento;
 
     public Loja(Pagamento pagamento) {

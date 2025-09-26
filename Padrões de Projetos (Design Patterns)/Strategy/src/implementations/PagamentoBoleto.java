@@ -1,9 +1,0 @@
-package implementations;
-import abstractions.Pagamento;
-
-class PagamentoBoleto implements Pagamento {
-    @Override
-    public void pagar(double valor) {
-        System.out.println("Pagamento de R$" + valor + " feito no Boleto.");
-    }
-}

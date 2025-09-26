@@ -1,18 +1,38 @@
-## Getting Started
+Estrutura de Pacotes: 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Observer/
+ └── gerenciador_de_tarefas/
+     ├── abstractions/
+     │   ├── Observer.java
+     │   └── Subject.java
+     ├── implementations/
+     │   ├── GerenciadorDeTarefas.java
+     │   └── Observador.java
+     └── app/
+         ├── Aplicacao.java
+         └── Main.java
 
-## Folder Structure
+Strategy/
+|
+src/
+└── sistemaDePagamentos/
+    ├── abstractions/
+    │   └── Pagamento.java
+    ├── implementations/
+    │   ├── PagamentoCartao.java
+    │   └── PagamentoBoleto.java
+    └── app/
+        ├── Loja.java
+        └── Main.java
 
-The workspace contains two folders by default, where:
+                  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+
+
+

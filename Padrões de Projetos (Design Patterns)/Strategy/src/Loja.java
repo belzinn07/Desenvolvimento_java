@@ -1,3 +1,4 @@
+import abstractions.Pagamento;
 class Loja {
     private final Pagamento pagamento;
 

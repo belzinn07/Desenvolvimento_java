@@ -1,45 +1,42 @@
-🎯 Objetivo do Repositório
-O propósito central deste repositório é:
+# Desenvolvimento_java
 
-Entender e aplicar os principais paradigmas de programação:
+Bem-vindo ao repositório **Desenvolvimento_java**!
 
-Programação Funcional (PF) 🧠
+Este repositório contém projetos, exemplos e anotações relacionados ao desenvolvimento em Java. É um espaço para estudos, experimentação de conceitos e organização de códigos para referência futura.
 
-Programação Orientada a Objetos (POO) 🧩
+## 📚 Sobre
 
-Programação Declarativa 📘
+Aqui você encontrará:
 
-Aprender a separar responsabilidades de forma clara e coesa
+- `Algoritmos`
+- `Manipulação de arrays e collections`
+- `Padrões de Projetos (Design Patterns)`
+- `Paradigmas da programação`
+- `SOLID`
 
-Praticar boas práticas de organização de código
+O objetivo é compartilhar conhecimento, praticar programação e reunir conteúdos úteis para quem está estudando ou desenvolvendo em Java.
 
-Ter contato com padrões de software reais utilizados em projetos profissionais
 
-🛠️ O que você vai aprender aqui?
-Ao explorar os exemplos e desafios disponíveis neste repositório, você será exposto a uma série de conceitos essenciais para se tornar um(a) desenvolvedor(a) mais consciente, limpo(a) e eficiente:
 
-✅ Programação Funcional (PF)
-Uso de funções puras
-Composição de funções
-Uso de streams, lambdas e operações de pipeline
-Abordagem declarativa e imutabilidade
+## 📁 Estrutura
 
-✅ Programação Orientada a Objetos (POO)
-Criação e uso de interfaces e classes abstratas
-Encapsulamento, herança, polimorfismo
-Abstração de responsabilidades
-Boas práticas de organização com pacotes
+A estrutura do repositório pode conter:
 
-✅ Programação Declarativa
-Foco no “o que fazer” ao invés do “como fazer”
-Clareza e legibilidade no fluxo de código
-Abordagens como streams, filtragens e transformações
-✅ Separação de Responsabilidades (SRP)
-Divisão de funcionalidades por papel
-Organização em camadas e pacotes distintos
-Aplicação do princípio de Responsabilidade Única (Single Responsibility Principle)
+- `Algoritmos/` — Exemplos e resoluções de algoritmos em Java
+- `Manipulação de arrays e collections/` — Exercícios e exemplos sobre arrays e coleções
+- `Padrões de Projetos (Design Patterns)/` — Exemplos de padrões de projetos
+- `Paradigmas/` — Exemplos relacionados a diferentes paradigmas de programação
+- `SOLID/` — Princípios SOLID aplicados em Java
+- `README.md` — Este arquivo
 
-✅ Padrões de Software
-Interfaces para contratos de negócio
-Estratégias de implementação desacoplada
-Reutilização e extensibilidade através de boas práticas de design
+## 🤝 Contribuição
+
+Sinta-se à vontade para contribuir! Abra um _pull request_ ou registre uma _issue_ para sugestões, dúvidas ou melhorias.
+
+## 📄 Licença
+
+Este repositório está licenciado sob a [MIT License](LICENSE).
+
+---
+
+Bons estudos e bom desenvolvimento em Java! 🚀☕

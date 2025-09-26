@@ -33,15 +33,17 @@ public class GerenciadordeTarefas implements Subject {
         notificarObservadores("Nova tarefa criada: " + tarefa);
     }
 
-    public void atualizarTarefa(String tarefa){
-       if(tarefas.contains(tarefa)){
-        notificarObservadores("Tarefa atualizada: " + tarefa);   
-       };
-    }
 
     public void removerTarefa(String tarefa){
         System.out.println("Tarefa removida:" + tarefa);
         notificarObservadores(tarefa);
+    }
+
+    
+    public void atualizarTarefa(String novaTarefa){
+        System.out.println("Tarefa atualizada: " + novaTarefa);
+        notificarObservadores(novaTarefa);
+       
     }
    
     public List<String> getTarefas() {

@@ -1,8 +1,5 @@
 package app;
-import java.util.Arrays;
-import java.util.List;
 import abstractions.Observer;
-import abstractions.Subject;
 import implementations.GerenciadordeTarefas;
 import implementations.Observador;
 
@@ -25,7 +22,7 @@ public class Aplicacao {
     gerenciador.adicicionarObservador(obs3);
 
     gerenciador.criarTarefa("Estudar Padrões de Projetos");
-    gerenciador.atualizarTarefa("Estudar Padrões de Projetos");
+    gerenciador.atualizarTarefa("Estudar Padrão Observer");
     gerenciador.removerTarefa("Estudar Padrões de Projetos");
 
     }

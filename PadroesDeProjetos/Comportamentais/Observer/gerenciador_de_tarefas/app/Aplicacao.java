@@ -22,9 +22,11 @@ public class Aplicacao {
     gerenciador.adicicionarObservador(obs3);
 
     gerenciador.criarTarefa("Estudar Padrões de Projetos");
+     gerenciador.removerTarefa("Estudar Padrões de Projetos");
     gerenciador.atualizarTarefa("Estudar Padrão Observer");
-    gerenciador.removerTarefa("Estudar Padrões de Projetos");
+   
 
     }
 
 }
+  

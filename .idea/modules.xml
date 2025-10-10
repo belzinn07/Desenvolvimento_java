@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algoritmos/Algoritmos.iml" filepath="$PROJECT_DIR$/Algoritmos/Algoritmos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Paradigmas/Calculadora-POO/Calculadora-POO.iml" filepath="$PROJECT_DIR$/Paradigmas/Calculadora-POO/Calculadora-POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InjecaoDeDepedencia/ComDI/ComDI.iml" filepath="$PROJECT_DIR$/InjecaoDeDepedencia/ComDI/ComDI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estudos_java.iml" filepath="$PROJECT_DIR$/Estudos_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Paradigmas/Imperativo/Imperativo.iml" filepath="$PROJECT_DIR$/Paradigmas/Imperativo/Imperativo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Manipulação de arrays e collections/Manipulação de arrays e collections.iml" filepath="$PROJECT_DIR$/Manipulação de arrays e collections/Manipulação de arrays e collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Paradigmas/Paradigma_Funcional/Paradigma_Funcional.iml" filepath="$PROJECT_DIR$/Paradigmas/Paradigma_Funcional/Paradigma_Funcional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID/SOLID.iml" filepath="$PROJECT_DIR$/SOLID/SOLID.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InjecaoDeDepedencia/SemDI/SemDI.iml" filepath="$PROJECT_DIR$/InjecaoDeDepedencia/SemDI/SemDI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PadroesDeProjetos/Comportamentais/Strategy/sistema_de_pagamento/src/main/main.iml" filepath="$PROJECT_DIR$/PadroesDeProjetos/Comportamentais/Strategy/sistema_de_pagamento/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PadroesDeProjetos/Criacionais/Singleton/gerenciador_configuracoes/src/main/main2.iml" filepath="$PROJECT_DIR$/PadroesDeProjetos/Criacionais/Singleton/gerenciador_configuracoes/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PadroesDeProjetos/Comportamentais/Observer/gerenciador_de_tarefas/src/main/main3.iml" filepath="$PROJECT_DIR$/PadroesDeProjetos/Comportamentais/Observer/gerenciador_de_tarefas/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PadroesDeProjetos/Comportamentais/Strategy/sistema_de_pagamento/src/test/test.iml" filepath="$PROJECT_DIR$/PadroesDeProjetos/Comportamentais/Strategy/sistema_de_pagamento/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PadroesDeProjetos/Criacionais/Singleton/gerenciador_configuracoes/src/test/test2.iml" filepath="$PROJECT_DIR$/PadroesDeProjetos/Criacionais/Singleton/gerenciador_configuracoes/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PadroesDeProjetos/Comportamentais/Observer/gerenciador_de_tarefas/src/test/test3.iml" filepath="$PROJECT_DIR$/PadroesDeProjetos/Comportamentais/Observer/gerenciador_de_tarefas/src/test/test3.iml" />
+    </modules>
+  </component>
+</project>

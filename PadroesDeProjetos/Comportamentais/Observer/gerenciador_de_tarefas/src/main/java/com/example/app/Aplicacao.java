@@ -1,7 +1,8 @@
-package app;
-import abstractions.Observer;
-import implementations.GerenciadordeTarefas;
-import implementations.Observador;
+package com.example.app;
+
+import com.example.abstractions.Observer;
+import com.example.implementations.GerenciadordeTarefas;
+import com.example.implementations.Observador;
 
 
 
@@ -22,7 +23,7 @@ public class Aplicacao {
     gerenciador.adicicionarObservador(obs3);
 
     gerenciador.criarTarefa("Estudar Padrões de Projetos");
-     gerenciador.removerTarefa("Estudar Padrões de Projetos");
+    gerenciador.removerTarefa("Estudar Padrões de Projetos");
     gerenciador.atualizarTarefa("Estudar Padrão Observer");
    
 

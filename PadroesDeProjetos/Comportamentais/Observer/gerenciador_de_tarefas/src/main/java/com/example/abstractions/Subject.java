@@ -1,4 +1,4 @@
-package abstractions;
+package com.example.abstractions;
 
 public interface Subject {
     void adicicionarObservador(Observer observer);

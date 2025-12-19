@@ -1,5 +1,8 @@
-package implementations;
-public class Observador  implements abstractions.Observer{
+package com.example.implementations;
+
+import com.example.abstractions.Observer;
+
+public class Observador  implements Observer{
    private String nome;
 
     public Observador( String nome) {

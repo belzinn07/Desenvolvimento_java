@@ -1,10 +1,12 @@
-package implementations;
-import abstractions.Subject;    
-import  abstractions.Observer;
+package com.example.implementations;
+
+import com.example.abstractions.Subject;    
+import  com.example.abstractions.Observer;
 import java.util.ArrayList; 
 import java.util.List;
 
 public class GerenciadordeTarefas implements Subject {
+    
     private List<Observer> observers = new ArrayList<>();
     private List<String> tarefas = new ArrayList<>();
 
